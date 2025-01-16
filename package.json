@@ -1,0 +1,18 @@
+{
+  "name": "css-inliner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-inline-css": "^4.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-strip-comments": "^2.6.0",
+    "inline-css": "^4.0.2"
+  }
+}
