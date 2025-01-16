@@ -14,14 +14,16 @@ npm i
 
 ## Usage
 
-Inline styles and keep the `<style>` tag (default task):
+Inline styles, remove links to external CSS files, and keep the `<style>` tag (default task):
 
 ```bash
 gulp
 ```
 
-Inline styles and remove the `<style>` tag:
+Same, but remove the `<style>` tag:
 
 ```bash
 gulp nostyle
 ```
+
+Use Ctrl-C to exit the task.
