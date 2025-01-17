@@ -13,7 +13,7 @@ function processFiles(files, optionsSrc, optionsInlineCss) {
 
 function run(optionsInlineCss) {
   watch(
-    'src/**/*.html', // Files to watch
+    ['src/**/*.htm', 'src/**/*.html'], // Files to watch
     { ignoreInitial: false } // Force to run the task on startup
   )
   .on('change', function(files) {
