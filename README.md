@@ -2,7 +2,7 @@
 
 ## Overview
 
-This tool watches for changes in `/src/*.html`, inlines your CSS styles and places the result in the `/build` folder. Based on gulp-inline-css.
+This tool watches for changes in `/src/*.html`, inlines your CSS styles, replaces CSS variables with static values, and places the result in the `/build` folder. Useful for building HTML emails, but not limited to that. Based on gulp-inline-css.
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm i
 
 ## Usage
 
-Inline styles, remove links to external CSS files, and keep the `<style>` tag (default task):
+When a file change is detected in `/src/*.html`, inline styles, remove external CSS links, and keep the `<style>` tag:
 
 ```bash
 gulp
